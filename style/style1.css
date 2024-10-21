@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #121212; /* Fundo geral escuro */
+    color: #f0f0f0;
+}
+
+.form-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1e1e1e; /* Fundo da seção do formulário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_login {
+    min-width: 20vw;
+    min-height: 50vh;
+    width: 30vw;
+    background-color: #2a2a2a; /* Fundo do container de input */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Coloca elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+h2 {
+    color: #f0f0f0; /* Título branco */
+    text-align: center; /* Centraliza o texto do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espaçamento entre os grupos de campos */
+}
+
+label {
+    color: #f0f0f0; /* Cor das labels */
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Largura total do campo */
+    height: 5vh; /* Altura do campo */
+    border: 1px solid #555; /* Borda mais clara */
+    background-color: #4a4a4a; /* Fundo do input */
+    padding: 10px; /* Espaçamento interno */
+    color: #fff; /* Texto branco no input */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+input::placeholder {
+    color: #b3b3b3; /* Cor do placeholder */
+    opacity: 1; /* Opacidade total */
+}
+
+.submit {
+    width: 100%;
+    margin-top: 10px; /* Espaçamento acima do botão */
+}
+
+.submit input {
+    width: 100%; /* Largura total do botão */
+    height: 6vh; /* Altura do botão */
+    background-color: #ff8c00; /* Fundo do botão de enviar */
+    border-radius: 10px; /* Bordas arredondadas */
+    color: white; /* Cor do texto no botão */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Muda o cursor para ponteiro */
+    transition: background-color 0.3s; /* Transição suave para mudança de cor de fundo */
+}
+
+.submit input:hover {
+    background-color: #e67e00; /* Cor ao passar o mouse no botão */
+}
